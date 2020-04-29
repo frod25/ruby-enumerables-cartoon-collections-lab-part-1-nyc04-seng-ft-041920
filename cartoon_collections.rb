@@ -6,6 +6,6 @@ end
 
 def list_dwarves(array)
   array.each_with_index { |obj, idx|
-    puts "#{obj}. #{idx}"
+    puts "#{idx + 1}. #{obj}"
   }
 end
